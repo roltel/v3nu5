@@ -10,9 +10,31 @@ Foi contruida para esclarecer e informar sobre conteúdos, ser uma companheira, 
 
 # Funcionalidades
 ## Conversaçao em lingua portuguesa.
+Conversação natural Portuguesa em AIML:
+Módulo de perfil português com 40 categorias;
+Módulo de compatibilidade de acentos e caracteres especiais; (em debug)
+5000 categorias em linguagem natural portuguesa (de Portugal);
+Consciência Virtual de 60.000 Categorias;
 ## Assistente
+Pesquisas na internet pelo google;
+Respostas com informação contida na Wikipedia;
+Dicionario em Português de Portugal; (em testes)
+Contactos e Gestão de Contactos; (em testes)
+Emails; (em testes)
 ## Jornalista
+Notícias;
 ## Domótica
+Recolha de dados de sensores
+Controlo de dispositivos electricos
+Termostato
+Temporizador
+## Deep learning
+Módulo de autoaprendizagem; (em testes)
+## Extras 
+Output audio em língua portuguesa;
+Input audio em linguagem natural portuguesa;
+Servidor api para chat;
+Deep learning;
 
 # Instalar
 Um computador em linux e bastantes conhecimentos de programação em especial python, bash, javascript, hml e xml.
