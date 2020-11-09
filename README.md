@@ -8,6 +8,10 @@ Pretende-se mapear e preservar a conversação em linguagem natural portuguesa. 
 
 Foi contruida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
 
+Chat com a V3NU5 http://venus.futuragora.pt
+
+Colabore neste empreedimento de manter a lingua portuguesa viva e implatá-la nas máquinas e dispositivos do futuro.
+
 # Funcionalidades
 ## Conversaçao em lingua portuguesa.
 Conversação natural Portuguesa em AIML:
