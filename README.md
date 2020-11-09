@@ -26,7 +26,7 @@ Correr os script bash para actualizar a base de dados.
 
 
 # Colaborar
-Necessita-se de colaborações em várias áreas e apelamos a relevância da causa de manter a lingua portuguesa viva. Apelamos a falantes de lingua portuguesa à dedicação de algum tempo disponivél a ensinar a assistente e preservar a lingua de camões.
+Necessita-se de colaborações em várias áreas e subllinhamos a relevância da causa de manter a lingua portuguesa viva. Apelamos a falantes de lingua portuguesa à dedicação de algum tempo disponivél a ensinar a assistente e preservar a lingua de camões.
 
 Para colaborar poderá simplesmente criar uma conta do github e editar os ficheiros aiml por forma a afinar a conversação.
 
