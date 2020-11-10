@@ -50,6 +50,7 @@ Correr os script bash para actualizar a base de dados.
 
 # Usar
 
+Consulte a lista de comandos. Chamamos de comandos a perguntas que têem respostas dinâmicas. Podem ser resultados de calculos, notícias entre outros e que são consantemente actualizados.
 
 # Colaborar
 Necessita-se de colaborações em várias áreas e subllinhamos a relevância da causa de manter a lingua portuguesa viva. Apelamos a falantes de lingua portuguesa à dedicação de algum tempo disponivél a ensinar a assistente e preservar a lingua de camões.
