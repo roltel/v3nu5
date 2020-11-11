@@ -2,7 +2,7 @@
 
 A Vénus é a maior base de dados de conversação em linguagem natural de português de Portugal. O Português é a sexta língua mais falada no mundo e existe uma falta de projectos que sustentem o futuro da língua de Camões dentro dos avanços tecnológicos que se avizinham.
 
-Este programa é uma assistente virtual desenvolvida para ter a capacidade de conversar em linguagem natural portuguesa e facilitar o acesso a informação assim como realizar automatismos. É um chatbot/ai desenvolvido com uma compilação linguística em Português de 60 milhares de entradas. Sendo a resstante informação coletada de diversar fontes em tempo real ou usando deep learning.
+Este programa é uma assistente virtual desenvolvida para ter a capacidade de conversar em linguagem natural portuguesa e facilitar o acesso à informação assim como realizar automatismos. É um chatbot/ai desenvolvido com uma compilação linguística em Português de 60 milhares de entradas. Sendo a restante informação coletada de diversas fontes em tempo real ou usando deep learning.
 
 Pretende-se mapear e preservar a conversação em linguagem natural portuguesa. Actualmente a maioria das aplicações, softwares e ferramentas são redigidos em inglês. Com o nosso projeto pretendemos garantir que a lingua portuguesa se manterá activa devido a sua integração em sistemas de inteligência artifical. 
 
@@ -50,7 +50,7 @@ Correr os script bash para actualizar a base de dados.
 
 # Usar
 
-Consulte a lista de comandos. Chamamos de comandos a perguntas que têem respostas dinâmicas. Podem ser resultados de calculos, notícias entre outros e que são consantemente actualizados.
+Consulte a lista de comandos. Chamamos comandos a perguntas que têm respostas dinâmicas. Podem ser resultados de calculos, notícias entre outros e que são constantemente actualizados.
 
 # Colaborar
 Necessita-se de colaborações em várias áreas e subllinhamos a relevância da causa de manter a lingua portuguesa viva. Apelamos a falantes de lingua portuguesa à dedicação de algum tempo disponivél a ensinar a assistente e preservar a lingua de camões.
