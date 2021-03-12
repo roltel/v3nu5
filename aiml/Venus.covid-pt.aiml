@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2021 reset                                              -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 03-12-2021                                          -->
+<!--  file: covid-pt.aiml                                               -->
+<aiml version="1.0">
+  <category>
+    <pattern>TEMPO DE INCUBAÇÃO</pattern>
+    <template>
+      <SRAI>INCUBAÇÃO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>SINTOMAS COVID</pattern>
+    <template>Os sinais e sintomas da COVID-19 variam em gravidade, desde a ausência de sintomas (sendo assintomáticos) até febre (temperatura ≥ 38.0ºC), tosse, dor de garganta, cansaço e dores musculares e, nos casos mais graves, pneumonia grave, síndrome respiratória aguda grave, septicémia, choque sético e eventual morte.
+
+Os dados mostram que o agravamento da situação clínica pode ocorrer rapidamente, geralmente durante a segunda semana da doença.</template>
+  </category>
+  <category>
+    <pattern>VACINA COVID</pattern>
+    <template>Atualmente não existe vacina que previna a infeção por SARS-CoV-2. Sendo um vírus recentemente identificado, estão ainda em curso investigações em diversos países para o desenvolvimento de uma vacina com eficácia comprovada e que respeite os requisitos necessários de segurança.</template>
+  </category>
+  <category>
+    <pattern>QUAL O PERÍODO DE INCUBAÇÃO DO COVID</pattern>
+    <template>
+      <SRAI>INCUBAÇÃO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>COVID</pattern>
+    <template>O novo coronavírus, designado SARS-CoV-2, foi identificado pela primeira vez em dezembro de 2019 na China, na cidade de Wuhan. Este novo agente nunca tinha sido identificado anteriormente em seres humanos. A fonte da infeção é ainda desconhecida.</template>
+  </category>
+  <category>
+    <pattern>TRANSMISSÃO COVID</pattern>
+    <template>A COVID-19 transmite-se pessoa-a-pessoa por contacto próximo com pessoas infetadas pelo SARS-CoV-2 (transmissão direta), ou através do contacto com superfícies e objetos contaminados (transmissão indireta).
+A transmissão por contacto próximo ocorre principalmente através de gotículas que contêm partículas virais que são libertadas pelo nariz ou boca de pessoas infetadas, quando tossem ou espirram, e que podem atingir diretamente a boca, nariz e olhos de quem estiver próximo.</template>
+  </category>
+  <category>
+    <pattern>INCUBAÇÃO COVID</pattern>
+    <template>Atualmente, estima-se que o período de incubação da doença (tempo decorrido desde a exposição ao vírus até ao aparecimento de sintomas) seja entre 1 e 14 dias.</template>
+  </category>
+  <category>
+    <pattern>TRANSMISSÃO COMUNITARIA COVID</pattern>
+    <template>Transmissão comunitária significa que o vírus circula na comunidade sem que seja possível identificar a origem de todas as cadeias de transmissão.</template>
+  </category>
+  <category>
+    <pattern>IMUNIDADE COVID</pattern>
+    <template>De acordo com a evidência científica disponível à data, ainda não é possível confirmar se as pessoas infetadas com o SARS-CoV-2 desenvolvem imunidade protetora. O organismo humano pode ir ganhando anticorpos após a infeção e desenvolvimento da doença.</template>
+  </category>
+  <category>
+    <pattern>TRATAMENTO COVID</pattern>
+    <template>O tratamento para a infeção por este novo coronavírus é dirigido aos sinais e sintomas que os doentes apresentam e tem como objetivo proporcionar alívio e maior conforto aos doentes.
+À data, considerando o conhecimento científico atual e as recomendações da OMS, encontram-se em investigação, algumas estratégias terapêuticas apontadas como potenciais candidatos terapêuticos.</template>
+  </category>
+  <category>
+    <pattern>APANHASTE COVID</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>QUAL A INCUBAÇÃO DO COVID</pattern>
+    <template>
+      <SRAI>INCUBAÇÃO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>GRAVIDEZ COVID</pattern>
+    <template>Nos trabalhos científicos publicados, não existe informação sobre a suscetibilidade de mulheres grávidas ao COVID-19. As grávidas sofrem alterações imunológicas e fisiológicas que as podem tornar mais suscetíveis a infeções respiratórias virais, incluindo o COVID-19. Durante a gravidez, as mulheres também podem estar em risco de doença grave, morbilidade ou mortalidade em comparação com a população em geral, como observado em casos de outras infeções relacionadas com coronavírus [incluindo coronavírus da síndrome respiratória aguda grave (SARS-CoV) e coronavírus da síndrome respiratória do Médio Oriente (MERS- CoV)] e outras infeções respiratórias virais, como a gripe (influenza).</template>
+  </category>
+  <category>
+    <pattern>COMO SE TRANSMITE O COVID</pattern>
+    <template>
+      <SRAI>A COVID-19 transmite-se pessoa-a-pessoa por contacto próximo com pessoas infetadas pelo SARS-CoV-2 (transmissão direta), ou através do contacto com superfícies e objetos contaminados (transmissão indireta).
+A transmissão por contacto próximo ocorre principalmente através de gotículas que contêm partículas virais que são libertadas pelo nariz ou boca de pessoas infetadas, quando tossem ou espirram, e que podem atingir diretamente a boca, nariz e olhos de quem estiver próximo.</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>QUAL A ORIGEM DA COVID</pattern>
+    <template>
+      <SRAI>ORIGEM COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>QUAL A ORIGEM DO COVID</pattern>
+    <template>
+      <SRAI>ORIGEM COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>DE ONDE VEM O COVID</pattern>
+    <template>
+      <SRAI>ORIGEM COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HÁ VACINA PARA COVID</pattern>
+    <template>
+      <SRAI>VACINA COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HÁ IMUNIDADE COVID</pattern>
+    <template>
+      <SRAI>IMUNIDADE COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TENS COVID</pattern>
+    <template>Eu sou imune ao covid. Mas tenho bastante conhecimento sobre esse coronavírus. Pergunta-me o que quiseres saber sobre esse assunto.</template>
+  </category>
+  <category>
+    <pattern>APANHAS COVID</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>APANHAS CORONAVIRUS</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>APANHASTE CORONAVIRUS</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>AJUDA CORONAVIRUS</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>AJUDA COVID</pattern>
+    <template>
+      <SRAI>TENS COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TRATAS COVID</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TRATASTE COVID</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>ESTUDA COVID</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HÁ TRATAMENTO PARA O COVID</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HÁ TRATAMENTO PARA O CORONAVIRUS</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>O COVID TEM TRATAMENTO</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>O CORONAVIRUS TEM TRATAMENTO</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TEM TRATAMENTO</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>O COVID TRATA SE</pattern>
+    <template>
+      <SRAI>TRATAMENTO COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>DE ONDE VEM O CORONAVIRUS</pattern>
+    <template>
+      <SRAI>ORIGEM COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>EFEITOS COVID</pattern>
+    <template>
+      <srai>SINTOMAS COVID</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>APANHEI COVID</pattern>
+    <template>Apanhaste? Onde? Sintomas?</template>
+  </category>
+  <category>
+    <pattern>TENHO COVID</pattern>
+    <template>
+      <srai>APANHEI COVID</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTE COVID</pattern>
+    <template>O teste pode ser realizado nos seguintes locais: laboratório de referência nacional – Instituto Nacional de Saúde Doutor Ricardo Jorge (INSA), laboratórios hospitalares capacitados para o efeito, rede complementar de laboratórios privados, outros postos de colheita (como o Drive Thru).</template>
+  </category>
+  <category>
+    <pattern>HÁ TESTE PARA O COVID</pattern>
+    <template>
+      <SRAI>TESTE COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTE CORONA</pattern>
+    <template>
+      <SRAI>TESTE COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTE CORONAVIRUS</pattern>
+    <template>
+      <SRAI>TESTE COVID</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>PCR</pattern>
+    <template>Enquanto os testes PCR são usados para confirmar se uma pessoa está infetada ou não. É um teste de diagnóstico. Pesquisa especificamente a nova variante de Coronavírus SARS-CoV-2. Tem alta sensibilidade e especificidade pela deteção simultânea de vários genes do vírus; Amostra obtida por zaragatoa da nasofaringe. Permite identificar portadores do vírus, doentes ou não É o teste de eleição no diagnóstico e em todo o processo.</template>
+  </category>
+  <category>
+    <pattern>TESTE PCR</pattern>
+    <template>
+      <srai>PCR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTES PCR</pattern>
+    <template>
+      <srai>PCR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PCR</pattern>
+    <template>
+      <srai>PCR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SEROLÓGICO</pattern>
+    <template>É um teste para deteção muito simples e sensível dos anticorpos para o Coronavírus SARS-CoV-2; Complemento da pesquisa directa do vírus. Permite rastrear contactos em conjunto com os testes de PCR. Permite vigilância serológica da população. Pode vir a identificar indivíduos protegidos para esta infeção. Pode vir a identificar indivíduos candidatos a vacinação, assim que esta esteja disponível</template>
+  </category>
+  <category>
+    <pattern>TESTES SEROLÓGICOS</pattern>
+    <template>
+      <srai>SEROLÓGICO</srai>
+    </template>
+  </category>
+  <topic name="COVID">
+    <category>
+      <pattern>ORIGEM COVID</pattern>
+      <template>Supõe-se que o SARS-CoV-2 tenha sido introduzido na espécie humana por transmissão zoonótica, ou seja, a partir de uma espécie animal. Vírus muito semelhantes foram identificados em morcegos e em pangolins, mas não é ainda claro o envolvimento destes animais na emergência do SARS-CoV-2 na espécie humana. As investigações continuam no sentido de esclarecer este processo para que melhor nos possamos defender de novas introduções.</template>
+    </category>
+  </topic>
+</aiml>

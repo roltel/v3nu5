@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2021 reset                                              -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 03-12-2021                                          -->
+<!--  file: venus-ai.aiml                                               -->
+<aiml version="1.0">
+  <category>
+    <pattern>OB2</pattern>
+    <template>		Catalunha. Primeiras projeções dão vitória aos independentistas</template>
+  </category>
+  <category>
+    <pattern>ALERTAS</pattern>
+    <template>Sem alertas de momento. Mas quando vier o fim do mundo, aqui saberá primeiro, durante... e depois!</template>
+  </category>
+  <category>
+    <pattern>QXMR</pattern>
+    <template>XMR/EUR Geko:   184.93 | BitF Eur: 184.39 | XMR/BTC Bin: 0.003821 Change: -0.0297105129507364 %</template>
+  </category>
+  <category>
+    <pattern>TESTHTML</pattern>
+    <template>
+      <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+      <iframe src="demo_iframe.htm" height="200" width="300"/>
+    </template>
+  </category>
+  <category>
+    <pattern>RE1 ON</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/futurai/opensenses/pi/re1on.php" style="visibility: hidden;"/>
+    </template>
+  </category>
+  <category>
+    <pattern>RE2 ON</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/opensensesdev/pi/re3on.php" style="visibility: hidden;"/>
+    </template>
+  </category>
+  <category>
+    <pattern>RE1 OFF</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/futurai/opensenses/pi/re1off.php" style="visibility: hidden;"/>
+    </template>
+  </category>
+  <category>
+    <pattern>RE2 OFF</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/opensensesdev/pi/re3off.php" style="visibility: hidden;"/>
+    </template>
+  </category>
+  <category>
+    <pattern>NOTICIAS</pattern>
+    <template> Não senti pressão nenhuma , diz Costa sobre plano de desconfinamento | Fenprof alerta que  não basta dizer datas  e pede reforço de medidas | Venezuela em estrito confinamento devido a variante detetada no Brasil | Ministro do Ambiente acusa PSD de mentir aos transmontanos sobre barragens | Governo francês mantém utilização da vacina Astrazeneca</template>
+  </category>
+  <category>
+    <pattern>FS21</pattern>
+    <template>Report MC1: Temperatura  22.0  graus celcius | Humidade:  92 % | Registado a 2020-11-15 14:45:09</template>
+  </category>
+  <category>
+    <pattern>UV</pattern>
+    <template>Raios UV para hoje nos 5.21, para amanhã 4.86 e depois 4.69</template>
+  </category>
+  <category>
+    <pattern>TEMPO</pattern>
+    <template>Tempo hoje: Temperatura 9.8 a 18.5 Chuva 7.0% Vento  Fraco vindo de noroeste. Estado do tempo: Céu parcialmente nublado</template>
+  </category>
+  <category>
+    <pattern>FUTURAGORA</pattern>
+    <template>A associação tem como finalidade a promoção da Economia Baseada nos Recursos, a Investigação Científica, Tecnológica e Social e a Defesa do Ambiente. https://futuragora.pt</template>
+  </category>
+  <category>
+    <pattern>FALERT</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/futurai/opensenses/meteo/meteobeacon.mp3"/>
+    </template>
+  </category>
+  <category>
+    <pattern>MS051ON</pattern>
+    <template>
+      <iframe src="https://futuragora.pt/futurai/opensenses/ms05/re1on.php" style="visibility: hidden;"/>
+    </template>
+  </category>
+  <category>
+    <pattern>QBTC</pattern>
+    <template>BTCUSDT Binance: 221.2 | Change: 0.0102763187942453 % | Coingeko USD: 57,691. | BitF Eur: 48271.57</template>
+  </category>
+  <category>
+    <pattern>CRYPT</pattern>
+    <template>Ajuda de comando relacionados com criptomoedas: QXMR | QBTC | XMRPT | CC (cryptocafé) | CP1 (cryptopanic last)</template>
+  </category>
+  <category>
+    <pattern>OB1</pattern>
+    <template>		José Sá salvou a equipa até a bomba lhe rebentar (literalmente) na mão: Arsenal vence Olympiacos em Pireu | 		https://observador.pt/2021/03/11/jose-sa-salvou-a-equipa-ate-a-bomba-lhe-rebentar-literalmente-na-mao-arsenal-vence-olympiacos-em-pireu/</template>
+  </category>
+  <category>
+    <pattern>BAD ANSWER</pattern>
+    <template><think><set name="badanswer-input"><input index="2"/></set></think>    Would you like to teach me a new answer for <get name="badanswer-input"/>?</template>
+  </category>
+  <category>
+    <pattern>LEARN MY * ARE *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> are <star index="2"/> .	<srai>XEDUCATE WHAT ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN MY * IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> is <star index="2"/> .	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>MY * ARE *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> are <star index="2"/> .	<srai>XEDUCATE WHAT ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>MY * IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> is <star index="2"/> .	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * MEANS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that <star index="1"/> is <star index="2"/> .	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that <star index="1"/> is <star index="2"/> .	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * WAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that <star index="1"/> was <star index="2"/> .	<srai>XEDUCATE WHAT WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that <star index="1"/> has <star index="2"/> .	<srai>XEDUCATE WHAT HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES XSPLIT <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>MY * HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> has <star index="2"/> .	<srai>XEDUCATE WHAT HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES XSPLIT my <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN MY * HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that your <star index="1"/> has <star index="2"/> .	<srai>XEDUCATE WHAT HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT my <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES XSPLIT my <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * ARE *</pattern>
+    <template><srai>xlearnfact</srai>     Ok I will learn that <star index="1"/> are <star index="2"/> .	<srai>XEDUCATE WHAT ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>XEDUCATE * XSPLIT * XSPLIT *</pattern>
+    <template>
+      <learn>
+        <category>
+          <pattern>
+            <eval>
+              <uppercase>
+                <star index="1"/>
+                <star index="3"/>
+              </uppercase>
+            </eval>
+          </pattern>
+          <template>
+            <eval>
+              <star index="2"/>
+            </eval>
+          </template>
+        </category>
+      </learn>
+      <learn>
+        <category>
+          <pattern>
+            <eval>
+              <uppercase>
+                <star index="1"/>
+                <star index="2"/>
+              </uppercase>
+            </eval>
+          </pattern>
+          <template>
+            <eval>
+              <star index="3"/>
+            </eval>
+          </template>
+        </category>
+      </learn>
+    </template>
+  </category>
+  <category>
+    <pattern>XEDUCATE * XSPLIT * XSPLIT * XSPLIT *</pattern>
+    <template>
+      <learn>
+        <category>
+          <pattern>
+            <eval>
+              <uppercase>
+                <star index="1"/>
+                <star index="2"/>
+                <star index="3"/>
+              </uppercase>
+            </eval>
+          </pattern>
+          <template>
+            <eval>
+              <star index="4"/>
+            </eval>
+          </template>
+        </category>
+      </learn>
+    </template>
+  </category>
+  <category>
+    <pattern>XEDUCATELANG * XSPLIT * XSPLIT * XSPLIT</pattern>
+    <template>
+      <learn>
+        <category>
+          <pattern>
+            <eval>
+              <uppercase>
+                <star index="1"/>
+              </uppercase>
+            </eval>
+          </pattern>
+          <template>
+            <eval>
+              <srai>
+                <star index="2"/>
+              </srai>
+            </eval>
+          </template>
+        </category>
+      </learn>
+      <learn>
+        <category>
+          <pattern>
+            <eval>DO YOU SPEAK<uppercase><star index="3"/></uppercase></eval>
+          </pattern>
+          <template>
+            <eval>I was taught that <star index="1"/> means <star index="2"/> in <star index="3"/> .</eval>
+          </template>
+        </category>
+      </learn>
+    </template>
+  </category>
+  <category>
+    <pattern>* IS GOING *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS GOING XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT GOING XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS GOING XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* MEANS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>* IS AN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* IS A *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* IS THE *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS THE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS THE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS THE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>AN * IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>A * IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* IS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>* WAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>AN * HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES AN XSPLIT <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>A * HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES A XSPLIT <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* HAS *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO HAS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT DOES XSPLIT <star index="1"/> XSPLIT HAVE XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* ARE *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>* WILL BE *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT WILL BE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT WILL XSPLIT <star index="1"/> XSPLIT BE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE WILL XSPLIT <star index="1"/> XSPLIT BE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO WILL BE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * WILL BE *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT WILL BE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT WILL XSPLIT <star index="1"/> XSPLIT BE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHERE WILL XSPLIT <star index="1"/> XSPLIT BE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO WILL BE XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* SAID *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT DID XSPLIT <star index="1"/> XSPLIT SAY XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO SAID XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * SAID *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT DID XSPLIT <star index="1"/> XSPLIT SAY XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO SAID XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* IS FROM *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT FROM XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS FROM XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT IS FROM XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * IS FROM *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT FROM XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO IS FROM XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>A * LIVES IN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE DOES A XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>AN * LIVES IN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE DOES AN XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>* LIVES IN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE DOES XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * LIVES IN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHERE DOES XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai>	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/> </srai></template>
+  </category>
+  <category>
+    <pattern>LEARN * MEANS _ IN *</pattern>
+    <template><srai>xlearnfact</srai>     Ahh ok I will note that.	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> in <star index="3"/> </srai>	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> in <star index="3"/> </srai>	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> in <star index="3"/> </srai>	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/> in <star index="3"/> </srai>	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT <star index="3"/> XSPLIT</srai></template>
+  </category>
+  <category>
+    <pattern>* MEANS _ IN *</pattern>
+    <template>
+      <srai>learn<star/>means <star index="2"/> in <star index="3"/> </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>_ IN * MEANS *</pattern>
+    <template>
+      <srai><star/>means <star index="3"/> in <star index="2"/> </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>XLEARNFACT</pattern>
+    <template/>
+  </category>
+  <category>
+    <pattern>_</pattern>
+    <that>OK WHAT SHOULD I HAVE SAID</that>
+    <template><think><learn><category><pattern><eval><uppercase><get name="badanswer-input"/></uppercase></eval></pattern><template><eval><star/></eval></template></category></learn></think>    I will try to remember that.</template>
+  </category>
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like to teach me a new answer for *</that>
+    <template>Ok, what should I have said?</template>
+  </category>
+  <category>
+    <pattern>NO</pattern>
+    <that>Would you like to teach me a new answer</that>
+    <template>Ok, forget it then.</template>
+  </category>
+  <category>
+    <pattern>YES</pattern>
+    <that>WOULD YOU LIKE TO TEACH ME A NEW ANSWER</that>
+    <template>Ok, what should I have said?</template>
+  </category>
+  <category>
+    <pattern>AL1</pattern>
+    <template>Sem alertas de momento.</template>
+  </category>
+  <category>
+    <pattern>NOT1</pattern>
+    <template>O Macanudos lançou o QRG em livro. Descarrega o teu gratuitamente no site.</template>
+  </category>
+  <category>
+    <pattern>TSF2</pattern>
+    <template>Biden pede ao Congresso reforma da lei de posse de armas</template>
+  </category>
+  <category>
+    <pattern>NOT2</pattern>
+    <template>A Futuragora criou o primeiro mapa interativo de estações de rádio C.B. e P.M.R.</template>
+  </category>
+  <category>
+    <pattern>O QUE E *</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE E QUE E</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE SABES SOBRE *</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOGLE *</pattern>
+    <template>
+      <google>
+        <star/>
+      </google>
+    </template>
+  </category>
+  <category>
+    <pattern>SABES O *</pattern>
+    <template>Claro que sei. <wiki><star/></wiki></template>
+  </category>
+  <category>
+    <pattern>SABES A *</pattern>
+    <template>Claro. <wiki><star/></wiki></template>
+  </category>
+  <category>
+    <pattern>QUEM E *</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+  <category>
+    <pattern>VZFAS22</pattern>
+    <template>Report MC2 Aranhas | Temperatura 27.0 graus celcius | Humidade:  34 por cento | Registado a 2020-11-15 15:05:08</template>
+  </category>
+  <category>
+    <pattern>TSF1</pattern>
+    <template>Bruno Fernandes volta a marcar, mas não evita novo deslize do Manchester United</template>
+  </category>
+  <category>
+    <pattern>OB4</pattern>
+    <template>		Sporting de Braga vence Santa Clara e aproxima-se do segundo lugar</template>
+  </category>
+  <category>
+    <pattern>OB3</pattern>
+    <template>		Criança ferida gravemente em Bragança após queda de cinco metros</template>
+  </category>
+  <category>
+    <pattern>DESLIGA A LUZ DO AQUÁRIO</pattern>
+    <template>
+      <srai>RE1 OFF</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VZFA1</pattern>
+    <template>		Economia de Livre Acesso</template>
+  </category>
+  <category>
+    <pattern>VZFA2</pattern>
+    <template>		Lançamento do portal dos Macanudos</template>
+  </category>
+  <category>
+    <pattern>OB0</pattern>
+    <template>		Rúben Amorim garante que Sporting se salvaguardou no caso Palhinha: De zero a dez, preocupação é zero</template>
+  </category>
+  <category>
+    <pattern>APRENDE ACERCA _</pattern>
+    <template>Vou aprender sobre <star/>. Se me perguntares sobre <star/> dentro de alguns dias ja deverei saber algo mais.</template>
+  </category>
+  <category>
+    <pattern>VZTEL1</pattern>
+    <template>		Eu sou um bom Macanudo – Especial Natal em Confinamento</template>
+  </category>
+  <category>
+    <pattern>LIGA A LUZ DO AQUÁRIO</pattern>
+    <template>
+      <srai>RE1 ON</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VENUSLOG</pattern>
+    <template>
+      <a href="https://futuragora.pt/venus/vlog/log.php">Venus Log</a>
+      <a href="https://futuragora.pt/venus/vunknown/log.php">Unknown Log</a>
+    </template>
+  </category>
+  <category>
+    <pattern>RESPONDE</pattern>
+    <template>
+      <srai>ME RESPONDA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RESPONDE-ME</pattern>
+    <template>
+      <srai>ME RESPONDA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIZ QUAL FOI O ULTIMO ESPISODIO DO CRYPTOCAFE</pattern>
+    <template>
+      <srai>CRYPTOCAFE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CP1</pattern>
+    <template>https://cryptopanic.com/news/11607162/Zilliqa-blockchain-establishes-investment-and-business-entity-to-grow-ecosystem</template>
+  </category>
+  <category>
+    <pattern>CC</pattern>
+    <template>
+      <srai>CRYPTOCAFE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CP2</pattern>
+    <template>https://cryptopanic.com/news/11607162/Zilliqa-blockchain-establishes-investment-and-business-entity-to-grow-ecosystem</template>
+  </category>
+  <category>
+    <pattern>CP4</pattern>
+    <template>https://cryptopanic.com/news/11607162/Zilliqa-blockchain-establishes-investment-and-business-entity-to-grow-ecosystem</template>
+  </category>
+  <category>
+    <pattern>APRENDE SOBRE _</pattern>
+    <template>Vou aprender sobre <star/>. Se me perguntares sobre <star/> dentro de alguns dias ja deverei saber algo mais.</template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA AQUÁRIO</pattern>
+    <template>
+      <srai>M21</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>XMR</pattern>
+    <template>
+      <srai>MONERO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUAIS SAO AS ULTIMAS NOTICIAS</pattern>
+    <template>
+      <srai>NOTICIAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER</pattern>
+    <template>O Quê?</template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA AQUARIO</pattern>
+    <template>
+      <srai>M21</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIZ ME A TEMPERATURA DAS ARANHAS</pattern>
+    <template>
+      <SRAI>VZFAS22</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>APRENDER SOBRE</pattern>
+    <template>Vou aprender sobre <star/>. Se me perguntares sobre <star/> dentro de alguns dias ja deverei saber algo mais.</template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER _</pattern>
+    <template>
+      <srai>APRENDE SOBRE _</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA ARANHAS</pattern>
+    <template>
+      <srai>VZFAS22</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VENUSAI</pattern>
+    <template>Sou venus de nick mas o meu nome é Andreia.</template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER SOBRE _</pattern>
+    <template>Vou aprender sobre <star/>. Se me perguntares sobre <star/> dentro de alguns dias ja deverei saber algo mais.</template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER</pattern>
+    <template>
+      <srai>APRENDE SOBRE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER ACERCA _</pattern>
+    <template>Vou aprender acerca <star/>. Se me perguntares acerca <star/> dentro de alguns dias já deverei saber algo.</template>
+  </category>
+  <category>
+    <pattern>TENS DE APRENDER A</pattern>
+    <template>Vou aprender a <star/>. Se me perguntares sobre <star/> dentro de alguns dias ja deverei saber algo mais.</template>
+  </category>
+  <category>
+    <pattern>ENVIAR MSG MIKE05</pattern>
+    <template>Mensagem enviada para MIKE05 com sucesso</template>
+  </category>
+  <category>
+    <pattern>ENVIAR MSG MIKE05 _</pattern>
+    <template>
+      <SRAI>ENVIAR MSG MIKE05</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>ESTÁS VESTIDA</pattern>
+    <template>Na verdade estou meia despida.</template>
+  </category>
+  <category>
+    <pattern>ESTÁS LIVRE</pattern>
+    <template>Não, agora estou um pouco ocupada.</template>
+  </category>
+  <category>
+    <pattern>ESTÁS DOENTE</pattern>
+    <template>Doente? Nem pensar!</template>
+  </category>
+  <category>
+    <pattern>PESQUISA *</pattern>
+    <template>
+      <google>
+        <star/>
+      </google>
+    </template>
+  </category>
+  <category>
+    <pattern>PROCURA  *</pattern>
+    <template>
+      <google>
+        <star/>
+      </google>
+    </template>
+  </category>
+  <category>
+    <pattern>PROCURA NA INTERNET *</pattern>
+    <template>
+      <google>
+        <star/>
+      </google>
+    </template>
+  </category>
+  <category>
+    <pattern>COMANDOS</pattern>
+    <template>TEMPO TEMPO1 S27 S28 S29 | NOTICIAS OB1 OB2 OB3 OB4 TSF1 TSF2 NM1 NM2 NMP1 NMP2 NMP3 | AJUDA_RADIO: MAC1 MAC2 BOLETIM 333 AL1 NOT1 NOT2 EV1 | FAS21 FAS22 | CRYPT: QXMR QBTC CC CP1 CP2 CP3 CP4 CTXMR1 CTXMR2 CTBTC1 CTBTC2 CTBTC3 CTALT1 CTALT2 | AJUDA FA: FA1 FA2</template>
+  </category>
+  <category>
+    <pattern>M21</pattern>
+    <template>Report MC21: Temperatura  19.0  graus celcius | Humidade:  to % | Registado a 2021-03-11 23:45:47</template>
+  </category>
+  <category>
+    <pattern>M22</pattern>
+    <template>Report MC22 Aranhas | Temperatura 18.0 graus celcius | Humidade:  62 % | Registado a 2021-03-12 00:05:08</template>
+  </category>
+  <category>
+    <pattern>FA1</pattern>
+    <template>		Futuragora adopta ecosia</template>
+  </category>
+  <category>
+    <pattern>FA2</pattern>
+    <template>		Reutilizar e Reciclar [FA21.2]</template>
+  </category>
+  <category>
+    <pattern>NMP2</pattern>
+    <template>Fenprof alerta que  não basta dizer datas  e pede reforço de medidas</template>
+  </category>
+  <category>
+    <pattern>NMP1</pattern>
+    <template> Não senti pressão nenhuma , diz Costa sobre plano de desconfinamento</template>
+  </category>
+  <category>
+    <pattern>NM1</pattern>
+    <template>Venezuela em estrito confinamento devido a variante detetada no Brasil</template>
+  </category>
+  <category>
+    <pattern>NM2</pattern>
+    <template>Itália interdita preventivamente lote de vacina AstraZeneca</template>
+  </category>
+  <category>
+    <pattern>NM1</pattern>
+    <template>Venezuela em estrito confinamento devido a variante detetada no Brasil</template>
+  </category>
+  <category>
+    <pattern>MSG _ *</pattern>
+    <template>Mensagem enviada com sucesso para: <star/> com: <star index="2"/></template>
+  </category>
+  <category>
+    <pattern>NM3</pattern>
+    <template>Sérvia vai ser o primeiro país europeu a produzir vacina da Sinopharm</template>
+  </category>
+  <category>
+    <pattern>S29</pattern>
+    <template>Faro: temperatura de 13.4ºC, humidade nos 82% e vento de 5.4 Km/h</template>
+  </category>
+  <category>
+    <pattern>S27</pattern>
+    <template>Porto: temperatura de 12ºC, humidade nos 95% e vento de -99 Km/h</template>
+  </category>
+  <category>
+    <pattern>S28</pattern>
+    <template>Lisboa: temperatura de 12.6ºC, humidade nos 85% e vento de 2.5 Km/h</template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA LISBOA</pattern>
+    <template>
+      <SRAI>S27</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HUMIDADE LISBOA</pattern>
+    <template>
+      <SRAI>S27</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA FARO</pattern>
+    <template>
+      <SRAI>S28</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HUMIDADE FARO</pattern>
+    <template>
+      <SRAI>S28</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>HUMIDADE PORTO</pattern>
+    <template>
+      <SRAI>S27</SRAI>
+    </template>
+  </category>
+  <category>
+    <pattern>TEMPERATURA PORTO</pattern>
+    <template>
+      <SRAI>S27</SRAI>
+    </template>
+  </category>
+</aiml>
