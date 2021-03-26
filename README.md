@@ -60,6 +60,6 @@ Para colaborar poderá simplesmente criar uma conta do github e editar os fichei
 Também pode colaborar na progração dos scripts e programas que acionam outras funcionalidades e deep learning.
 
 Saber mais em: https://futuragora.pt/venus/
-
+<html>
 <iframe src="https://futuragora.pt/venus/" style="width: 500px; height: 130px; border: 0px"></iframe>
 
